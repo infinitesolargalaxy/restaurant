@@ -158,7 +158,7 @@
 
 				var s = '';
 
-				$a.nextAll().each(function() {
+				$a.nextAll('figcaption').each(function() {
 					s += this.outerHTML;
 				});
 
