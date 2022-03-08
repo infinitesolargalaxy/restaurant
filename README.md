@@ -1,6 +1,14 @@
 # restaurant
 An example restaurant website
 
+| Desktop | Mobile |
+|---|---|
+| <img src="Menu.png"> | <img src="MenuPhone.png"> |
+
+## Features:
+1. Responsive Design
+2. Menu items display enlarged image when clicked
+
 ## Menu
 
 ### Lunch
