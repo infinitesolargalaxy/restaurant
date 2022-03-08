@@ -17,6 +17,16 @@ https://unsplash.com/photos/8l8Yl2ruUsg
 ### Dinner
 
 ### Appetizers
+Soup of the Day
+https://unsplash.com/photos/BA6FzJZ9IfY
+
+Truffle Oil Fries
+https://unsplash.com/photos/vi0kZuoe0-8
+
+caesar salad
+https://unsplash.com/photos/dsT5LGzEuzE
+
+chicken / parmigiano reggiano cheese / crouton
 
 ### Desserts
 Cardamom Bun with Caramel & Chocolate

@@ -2630,6 +2630,12 @@ input, select, textarea {
 				padding-right: 0 !important;
 			}
 
+	@media print {
+		ul.icons {
+			display: none;
+		}
+	}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2830,17 +2836,25 @@ input, select, textarea {
 			flex-wrap: wrap;
 		}
 			.features.menu li > * {
-				width: 90%;
+				width: 70%;
 				text-align: start;
 			}
+
+				.features.menu li > a > dt {
+					font-weight: 700;
+				}
 
 			.features.menu li > .menu-price {
 				width: 10%;
 				text-align: end;
 			}
 
-			.features.menu li > a > dt {
-				font-weight: 700;
+			.features.menu li > .menu-image {
+				border-radius: 100%;
+				width: 8em;
+				height: 8em;
+				object-fit: cover;
+				margin-left: auto;
 			}
 
 			/* Only show captions when image is enlarged */
@@ -2886,6 +2900,29 @@ input, select, textarea {
 						margin-top: 2em;
 					}
 
+		}
+
+		@media screen and (min-width: 784px) {
+			.features.menu li > .menu-image {
+				/* Move the images up */
+				margin-top: -2rem;
+			}
+		}
+
+		@media print {
+			.features.menu li > .menu-image {
+				display: none;
+			}
+		}
+
+		@media screen and (max-width: 570px) {
+			.features.menu li > .menu-price {
+				width: 30%;
+			}
+			.features.menu li > .menu-image {
+				margin-right: auto;
+				margin-top: 1rem;
+			}
 		}
 
 /* Statistics */
@@ -3011,6 +3048,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	@media print {
+		.spotlight {
+			display: none;
+		}
+	}
+
 		.spotlight .content {
 			-moz-flex: 1;
 			-webkit-flex: 1;
@@ -3038,6 +3081,8 @@ input, select, textarea {
 				display: block;
 				border-radius: 100%;
 				width: 16em;
+				height: 16em;
+				object-fit: cover;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3090,6 +3135,7 @@ input, select, textarea {
 
 				.spotlight .image img {
 					width: 12em;
+					height: 12em;
 				}
 
 		}
@@ -3364,6 +3410,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 480px) {
+			#nav {
+				max-width: calc(100% - 2em);
+			}
+		}
+
+		@media print {
+			#nav {
+				display: none;
+			}
+		}
+
 /* Main */
 
 	#main {
@@ -3616,6 +3674,10 @@ input, select, textarea {
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
 			border-top: solid 1px #dddddd;
+		}
+
+		#main > .main.special {
+			padding-bottom: 0;
 		}
 
 			#main > .main:first-child {
