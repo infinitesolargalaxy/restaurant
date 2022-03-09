@@ -540,6 +540,11 @@ input, select, textarea {
 					padding-top: 1.5em;
 				}
 
+				/* Only show captions when image is enlarged */
+				.row.gtr-uniform > * > figcaption {
+					display: none;
+				}
+
 		.row.gtr-150 {
 			margin-top: 0;
 			margin-left: -2.25em;
@@ -2412,6 +2417,9 @@ input, select, textarea {
 
 			.image.main img {
 				width: 100%;
+				max-height: 500px;
+				object-fit: cover;
+				object-position: top;
 			}
 
 /* List */
