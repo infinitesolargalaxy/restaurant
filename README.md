@@ -3,7 +3,7 @@ An example restaurant website
 
 | Desktop | Mobile |
 |---|---|
-| <img src="Menu.png"> | <img src="MenuPhone.png"> |
+| <img src="Menu.PNG"> | <img src="MenuPhone.PNG"> |
 
 ## Features:
 1. Responsive Design
