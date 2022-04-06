@@ -1,5 +1,5 @@
 # restaurant
-An example restaurant website
+A static HTML + CSS restaurant website for "The Spring Tower"
 
 | Desktop | Mobile |
 |---|---|
