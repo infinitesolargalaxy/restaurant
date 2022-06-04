@@ -6,7 +6,7 @@ Restaurant website with responsive menu.
 
 | Desktop | Mobile |
 |---|---|
-| <img src="Menu.png"> | <img src="MenuPhone.png"> |
+| <img src="Menu.PNG"> | <img src="MenuPhone.PNG"> |
 
 ## How It's Made:
 
@@ -21,3 +21,4 @@ Restaurant website with responsive menu.
 
 ## Lessons Learned:
 If I had more time, I would rewrite this static website using a framework to reduce code redundancy. The headers and footers on the 2 `html` pages are repeated, creating friction when updating content. Additionally, I would like to extend the enlarge image functionality from clicking the Menu name to the menu image, but did not due to the redundant source links.
+
