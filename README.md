@@ -1,8 +1,12 @@
-# <img src='The Spring Tower-logo/vector/default-resized.svg' height='200px' style="background: #276D8E;">
+<img src='The Spring Tower-logo/vector/default-resized.svg' height='200px' style="background: #276D8E;">
 
 Restaurant website with responsive menu.
 
-**[Visit Here](https://the-spring-tower.netlify.app/)** 
+<a href="https://the-spring-tower.netlify.app/" rel="nofollow">
+    <img alt="Website" src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=cdf998&style=for-the-badge&logo=googlechrome&logo-color=white">
+</a>
+
+<img alt="Website Status" src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fthe-spring-tower.netlify.app%2F">
 
 | Desktop | Mobile |
 |---|---|
