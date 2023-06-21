@@ -1,65 +1,28 @@
-# restaurant
-An example restaurant website
+<img src='The Spring Tower-logo/vector/default-resized.svg' height='200px' style="background: #276D8E;">
+
+Restaurant website with responsive menu.
+
+<a href="https://the-spring-tower.netlify.app/" rel="nofollow">
+    <img alt="Website" src="https://img.shields.io/static/v1?label=|&message=WEBSITE&color=cdf998&style=for-the-badge&logo=googlechrome&logo-color=white">
+</a>
+
+<img alt="Website Status" src="https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fthe-spring-tower.netlify.app%2F">
 
 | Desktop | Mobile |
 |---|---|
 | <img src="Menu.PNG"> | <img src="MenuPhone.PNG"> |
 
+## How It's Made:
+
+**Tech used:** <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+
 ## Features:
 1. Responsive Design
 2. Menu items display enlarged image when clicked
 
-## Menu
-
-### Lunch
-Pasta
-https://unsplash.com/photos/AUAuEgUxg5Q
-
-Steak
-https://unsplash.com/photos/pe9dvM1rQkM
-
-Burger
-https://unsplash.com/photos/xx6MgXq5uyE
-https://unsplash.com/photos/8l8Yl2ruUsg
-
-### Dinner
-
-### Appetizers
-Soup of the Day
-https://unsplash.com/photos/BA6FzJZ9IfY
-
-Truffle Oil Fries
-https://unsplash.com/photos/vi0kZuoe0-8
-
-caesar salad
-https://unsplash.com/photos/dsT5LGzEuzE
-
-chicken / parmigiano reggiano cheese / crouton
-
-### Desserts
+## Optimizations
 
 
-Buckwheat flour choc cookies
-https://unsplash.com/photos/CfG6qMQP_jw
+## Lessons Learned:
+If I had more time, I would rewrite this static website using a framework to reduce code redundancy. The headers and footers on the 2 `html` pages are repeated, creating friction when updating content. Additionally, I would like to extend the enlarge image functionality from clicking the Menu name to the menu image, but did not due to the redundant source links.
 
-Hot Chocolate
-https://unsplash.com/photos/UJBesjRXz8o
-
-Cardamom Bun with Caramel & Chocolate
-https://unsplash.com/photos/501wbSfBgLk
-
-Blueberry Cheesecake
-https://unsplash.com/photos/LGNxQzYmeUk
-
-### Drinks
-
-## Restaurant
-
-### Castle
-https://unsplash.com/photos/kSxLHf6Nsj0
-
-### Chef
-https://unsplash.com/photos/FMh5o5m5N9E
-
-Gin
-https://unsplash.com/photos/ZKonZyj41kw
